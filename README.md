@@ -55,6 +55,9 @@ docker run -p 8000:8000 sentimental-analysis-api
 - **GET /:** A welcome endpoint that redirects to the Swagger UI page.
 - **POST /analyze:** The endpoint for sentimental Analysis. It accepts JSON input with a text field and returns the sentimental analysis results.
 
+![3](https://github.com/maaz117/sentimental_analysis_using_huggingface/assets/125992001/affe8023-628e-4bda-b234-122621b4be5e)
+
+
 ## Testing the API
 ```
 pytest
